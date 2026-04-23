@@ -1,0 +1,58 @@
+{
+  "name": "peliculas-tmdb",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "moviesData": {
+    "results": [
+      {
+        "id": 1,
+        "title": "Dune: Part Two",
+        "poster_path": "img/dune2.png",
+        "vote_average": 8.3,
+        "overview": "Paul Atreides se une a Chani y a los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia."
+      },
+      {
+        "id": 2,
+        "title": "Oppenheimer",
+        "poster_path": "img/oppenheimer.png",
+        "vote_average": 8.1,
+        "overview": "La historia del científico estadounidense J. Robert Oppenheimer y su papel en el desarrollo de la bomba atómica."
+      },
+      {
+        "id": 3,
+        "title": "Spider-Man: Across the Spider-Verse",
+        "poster_path": "img/spiderman.png",
+        "vote_average": 8.4,
+        "overview": "Miles Morales se lanza a través del Multiverso, donde se encuentra con un equipo de Spider-People encargado de proteger su propia existencia."
+      },
+      {
+        "id": 4,
+        "title": "The Batman",
+        "poster_path": "img/thebatman.png",
+        "vote_average": 7.7,
+        "overview": "En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham."
+      },
+      {
+        "id": 5,
+        "title": "Poor Things",
+        "poster_path": "img/poorthings.png",
+        "vote_average": 7.8,
+        "overview": "Bella Baxter es una joven revivida por el brillante y poco ortodoxo científico Dr. Godwin Baxter."
+      },
+      {
+        "id": 6,
+        "title": "Interstellar",
+        "poster_path": "img/interstellar.png",
+        "vote_average": 8.4,
+        "overview": "Un grupo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad."
+      }
+    ]
+  }
+}

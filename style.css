@@ -1,0 +1,65 @@
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent: #ffc107;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 { font-weight: 700; letter-spacing: -1px; }
+
+.card {
+    background-color: var(--card-bg);
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.card-img-top {
+    height: 350px; /* Altura fija para uniformidad */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    background-color: #2a2a2a; /* Fondo gris mientras carga la imagen */
+}
+
+
+.card-title { color: var(--accent); font-size: 1.1rem; }
+.card-text { color: var(--text-secondary); font-size: 0.85rem; }
+
+/* Búsqueda Dinámica */
+.search-container { position: relative; width: 300px; }
+.suggestions-box {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background: var(--card-bg);
+    z-index: 1000;
+    border-radius: 0 0 8px 8px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+.suggestion-item:hover { background: #333; }
+
+/* Paginación Custom */
+.page-link {
+    background-color: var(--card-bg);
+    border-color: #333;
+    color: var(--accent);
+}
+.page-link:hover { background-color: var(--accent); color: #000; }
